@@ -1,3 +1,0 @@
-Host: 8080
-Rabbit:
-   Url: "amqp://guest:guest@43.139.139.207:5672/"
