@@ -44,7 +44,7 @@ func runappota(wg *sync.WaitGroup) {
 	go func() {
 		in.WriteString("dir")
 		//写入你的命令，可以有多行，"\n"表示回车
-		// in.WriteString("go run main.go")//写入你的命令，可以有多行，"\n"表示回车
+		// in.WriteString("go run consumer.go")//写入你的命令，可以有多行，"\n"表示回车
 
 	}()
 

@@ -25,7 +25,7 @@ func main() {
 	}
 	db := client.Database(Database)
 
-	db := client.Database("userAdmin")
+	client.Database("userAdmin")
 	coll := db.Collection("appuser")
 	var m []AppUser
 	err = coll.Find(ctx, bson.M{}).All(&m)
