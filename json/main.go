@@ -32,9 +32,9 @@ func main() {
 		},
 	}
 
-	Info_of_Zhang3, err := json.Marshal(Zhang3)
+	InfoOfZhang3, err := json.Marshal(Zhang3)
 	if err == nil {
-		fmt.Println(string(Info_of_Zhang3))
+		fmt.Println(string(InfoOfZhang3))
 	} else {
 		fmt.Println(err)
 		return
